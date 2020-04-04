@@ -24,7 +24,6 @@ def get_english_meaning(file_path, japanese)
  library.each do |key, value|
   if value[:japanese] == japanese
     l<< key
- # binding.pry
   end
  end
  
