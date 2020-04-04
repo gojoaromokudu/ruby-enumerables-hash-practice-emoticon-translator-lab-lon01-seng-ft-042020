@@ -28,4 +28,8 @@ def get_english_meaning(file_path, japanese)
   end
  end
  l
+ 
+ if l == ""
+   l << 
+ 
 end
