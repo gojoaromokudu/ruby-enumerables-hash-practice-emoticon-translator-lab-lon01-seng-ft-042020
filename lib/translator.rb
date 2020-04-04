@@ -27,9 +27,9 @@ def get_english_meaning(file_path, japanese)
  # binding.pry
   end
  end
- l
  
  if l == ""
-   l << 
- 
+   l << "Sorry, that emoticon was not found"
+ end
+ l
 end
