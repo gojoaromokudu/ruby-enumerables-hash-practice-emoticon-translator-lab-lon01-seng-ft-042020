@@ -22,9 +22,9 @@ def get_japanese_emoticon(file_path, english)
   end
  end
  
-# if answer == ""
-#   answer << "Sorry, that emoticon was not found"
-# end
+if answer == ""
+  answer << "Sorry, that emoticon was not found"
+end
  answer
  
 end
